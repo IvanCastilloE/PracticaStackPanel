@@ -1,0 +1,23 @@
+﻿<Window x:Class="PracticaStackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaStackPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Button VerticalAlignment="Stretch">Botonuqui 1</Button>
+        <Button VerticalAlignment="Top">Botonuqui 2</Button>
+        <Button VerticalAlignment="Center">Botonuqui 3</Button>
+        <Button VerticalAlignment="Bottom">Botonuqui 4</Button>
+        <Button HorizontalAlignment="Stretch">Botonuqui 5</Button>
+        <Button HorizontalAlignment="Left">Botonuqui 6</Button>
+        <Button HorizontalAlignment="Center">Botonuqui 7</Button>
+        <Button HorizontalAlignment="Right" Width="250">Super Botonuqui 8</Button>
+        <Button Width="250">Botonuqui 9</Button>
+        <Button>Botonuqui 10</Button>
+        <Button>Botonuqui 11</Button>
+        <Button>Botonuqui 12</Button>
+    </StackPanel>
+</Window>
